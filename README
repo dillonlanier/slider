@@ -1,0 +1,41 @@
+/**************************************************
+* Readme file for the demo slider
+* Last updated 4/30/2025
+* Live Demo: https://codepen.io/Dillon-Lanier/pen/OPPOaKE
+***************************************************
+1. Built with minimal JavaScript
+This slider leans heavily on CSS to hide/ reveal slides,
+making the implementation easy to understand. JavaScript
+is necessary only to create functional next and previous
+buttons. 
+
+2. Use cases
+I orginally built this slider to show off my resume online.
+It could easily be modified to fit other common slider uses
+such as testimonials, slideshows, products, or hero sections.
+
+3. License 
+This code is free to use by anyone without giving credit. There
+is a hidden link in the html to my website (springcreekweb.design) 
+that I kindly ask you to leave, but this is not required.
+
+4. Setup 
+To use the slider in your own website you simply need to copy the
+code and extend it. These instructions assume you are using 
+WordPress.org and have the ability to edit or extend your theme.
+You will need a place to put custom JavaScript and CSS, this will
+usually be within your theme/ child-theme. Simply copy the CSS and 
+JS to the respective locations. The HTML can be added to either
+a custom html block in the page editor, or to a custom page
+template that you then asign to the slider page. 
+
+5. Future/ Extending the Slider
+The slider could be turned into a plugin without too much work,
+and I may take the time to do this in the future. If this is 
+something you'd be interested in, let me know!
+
+6. Author Information
+Dillon Lanier 
+https://dsmokerlanier.com/
+htttps://springcreekweb.design/
+

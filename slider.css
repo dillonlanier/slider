@@ -1,0 +1,113 @@
+/****************************************************
+* CSS for slider demo 
+* Written by Dillon Lanier 
+****************************************************/
+:root {
+	--green: #007A33;
+	--gold: #FDB927;
+	--blue: #1D42BA;
+	--red: #CE1141;
+	--grey: #3b3b3b;
+}
+.slider-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto;
+}
+#slider {
+	display: flex;
+	margin: 2rem 0 0;
+	overflow-x: hidden;
+	scroll-behavior: auto;
+}
+/* Style slides  */
+#slider-nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+#slider-nav a, .skills span {
+	color: white;
+	text-decoration: none;
+	background: black;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 5px 20px;
+	margin: 5px;
+}
+.skills span {
+	display: flex;
+  	align-items: center;
+}
+.skills {
+	display: flex;
+  	flex-wrap: wrap;
+	font-size: 0.75em;
+	text-align: center;
+}
+.skills .hard {
+	border-radius: 0;
+}
+.slide {
+	flex: 1 0 100%;
+	margin: 0 5px;
+}
+.slide-header {
+	border: solid 1px black;
+	background-color: black;
+	color: white;
+	padding: 2rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.slide-header h3, .slide-sub-head p, .slide-sub-head a {
+	margin: 0;
+}
+.slide-header span {
+	height: fit-content;
+}
+.slide-sub-head { 
+	display: flex; 
+	padding: 1rem 1rem 0;
+}
+.slide-sub-head .slide-field {
+	width: 100%;
+}
+.slide-sub-head a { 
+	text-align: right; 
+	width: 100%;
+}
+.slide-summary, .slide-details, .achievements, .slide-sub-head {
+	margin: 2rem 0;
+	padding: 0 0 0 1rem;
+	border-style: none none none solid;
+}
+/* Customize the Individual Slides */
+#slide-4 .slide-header h3, #slide-4 .slide-header span, 
+#slide4-a:hover, #slide4-a.active {
+	color: black;
+}
+#slide0-a:hover, #slide0-a.active {
+	background: var(--green);
+}
+#slide-1 .slide-header, #slide1-a:hover, #slide1-a.active {
+	background: var(--blue);
+}
+#slide-2 .slide-header, #slide2-a:hover, #slide2-a.active {
+	background: var(--grey);
+}
+#slide-3 .slide-header, #slide3-a:hover, #slide3-a.active  {
+	background: var(--red);
+}
+#slide-4 .slide-header, #slide4-a:hover, #slide4-a.active  {
+	background: var(--gold);
+}
+/* Style previous and next links */
+#slider-bottom-nav {
+	padding: 0 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+#slider-bottom-nav a:hover {
+	cursor: pointer;
+}
