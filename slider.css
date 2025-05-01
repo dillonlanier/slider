@@ -87,7 +87,7 @@
 #slide4-a:hover, #slide4-a.active {
 	color: black;
 }
-#slide0-a:hover, #slide0-a.active {
+#slide-0 .slide-header, #slide0-a:hover, #slide0-a.active {
 	background: var(--green);
 }
 #slide-1 .slide-header, #slide1-a:hover, #slide1-a.active {
